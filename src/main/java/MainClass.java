@@ -8,7 +8,7 @@ public class MainClass {
         String fileurl;
         String filedir;
         if (args.length != 3) {
-            System.out.println("Wrong number of arguments. Notice: -URL -Directory -Filename");
+            System.out.println("Wrong number of arguments. Notice: URL Directory Filename");
             System.exit(0);
         }
         fileurl = args[0];
